@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  }
+
+
+
+body{
+    background-color: rgb(58, 58, 58);
+    font-family: serif;
+}
+
+footer{
+    background-color: #222;
+    border: 0px;
+    padding: 50px;
+}
+
+#fake-legal small{
+    color: whitesmoke;
+    
+}
+
+header div{
+    background-color: #222;
+    padding: 30px;
+}
+
+header div a{
+    color: aliceblue;
+    text-decoration: dashed;
+    font-size: 30px;
+    background-color: rgb(58, 58, 58);
+    padding: 5px;
+    font-weight: bold;
+}
