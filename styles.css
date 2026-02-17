@@ -42,6 +42,7 @@ p{
     hyphens: auto;
     color: #000033;
     padding-left: 10px;
+    margin-top:20px;
 }
 
 #maintitle{
@@ -57,7 +58,7 @@ p{
 	background-color: orange;
 	width: 100%;
 	display: flex;
-    justify-content: space-evenly;
+	gap:20px;
     
 }
 
@@ -98,13 +99,23 @@ outline: 2px solid #4da3ff;
 }
 
 .link{
-	margin:10px;
+	
     color: wheat;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: dashed;
 	padding: 1.5rem;
+	text-align:center;
 	background-color:darkorange;
+	flex:1;
+	font-size: 20px;
+	transition:all .3s;
+}
+
+.link:hover{
+	background-color: antiquewhite;
+	color: black
+	
 }
 
 footer{
