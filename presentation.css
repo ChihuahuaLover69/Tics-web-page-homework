@@ -1,18 +1,67 @@
-* {
-  margin: 0;
-  }
 
 
+html, body {
+  height: 100%;
+  margin: 0%;
+}
+
+html, body {
+  height: 100%;
+}
+html, body {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1,h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    
+}
+
+#sobre-mi{
+    display: flex;
+    max-height: 400px;
+    padding: 30px;
+    min-width: 400px;
+}
+
+#sobre-mi img{
+    
+    padding:  8px;
+    background-color: rgb(145, 207, 137);
+    border-radius: 100%;
+    border: 3px solid;
+    
+}
+
+#sobre-mi p{
+    padding-right:1rem ;
+    min-width: 100px;
+    padding-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: clamp(10px,3vw, 37px);
+}
 
 body{
     background-color: rgb(58, 58, 58);
     font-family: serif;
 }
 
-footer{
+#fake-legal{
+    
     background-color: #222;
     border: 0px;
     padding: 50px;
+
+
 }
 
 #fake-legal small{
@@ -31,5 +80,17 @@ header div a{
     font-size: 30px;
     background-color: rgb(58, 58, 58);
     padding: 5px;
+    
     font-weight: bold;
+}
+
+#contactos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    z-index: 0;
+	width: 100%;
+	display: flex;
+    justify-content: space-evenly;
+    
 }
