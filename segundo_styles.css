@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a; /* azul oscuro */
+  color: #e5e7eb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+  background-color: #020617;
+  color: #f8fafc;
+  letter-spacing: 0.05em;
+  hyphens: auto;
+}
+
+h1 {
+  font-size: clamp(26px, 3vw + 1rem, 52px);
+  padding: 3rem 1rem 1rem;
+}
+
+h2 {
+  font-size: clamp(18px, 2.5vw + 1rem, 40px);
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #334155;
+}
+
+p {
+  font-size: clamp(18px, 2vw, 34px);
+  line-height: 1.7;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem 1.5rem;
+  text-align: justify;
+  hyphens: auto;
+  color: #e5e7eb;
+  background-color: #020617;
+  border-left: 4px solid #38bdf8;
+}
+
+div p {
+  background-color: #020617;
+}
+
+#maintitle {
+  background: linear-gradient(180deg, #020617, #0f172a);
+  padding: 7rem 0 2rem;
+}
+
+#enlaces {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  background-color: #020617;
+  border-bottom: 1px solid #334155;
+  z-index: 10;
+}
+
+.link {
+  flex: 1;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 18px;
+  color: #38bdf8;
+  text-decoration: none;
+  transition: background-color .3s, color .3s;
+}
+
+.link:hover {
+  background-color: #38bdf8;
+  color: #020617;
+}
+
+#section1,
+#section2 {
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+}
+
+#section2 p {
+  min-height: 450px;
+  font-size: clamp(20px, 2.4vw, 36px);
+}
+
+.reference {
+  text-align: right;
+  font-size: clamp(20px, 2vw, 34px);
+  padding: 2rem 3rem;
+  color: #94a3b8;
+}
+
+.reference a {
+  font-style: italic;
+  color: #38bdf8;
+  text-decoration: underline;
+}
+
+.reference:focus {
+  outline: 2px solid #38bdf8;
+}
+
+footer {
+  background-color: #020617;
+  padding: 3rem;
+  border-top: 1px solid #334155;
+}
+
+#fake-legal small {
+  color: #94a3b8;
+}
+
+#last-div {
+  background-color: transparent;
+}
+
+#last-text {
+  max-width: 1600px;
+  padding: 2rem;
+  text-align: justify;
+}
